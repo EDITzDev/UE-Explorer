@@ -200,6 +200,8 @@ namespace UEExplorer.UI.Tabs
                         && signature != 0xEA31928C
                         // ArcticCombat
                         && signature != 0xA1B2C93F
+                        // Line Of Sight
+                        && signature != 0x180477E3
                     ))
                 {
                     if (MessageBox.Show(
